@@ -1,5 +1,4 @@
 # OOPL2
-# OOPL2
 
 # 1 Typy zmiennych w języku Java
 
