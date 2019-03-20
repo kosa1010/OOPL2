@@ -191,7 +191,7 @@ public class Tests {
 
         Assert.assertEquals(Arrays.stream(a).sum(), z.sum(), 0);
         Assert.assertEquals(6 * 7 * 8 * 9 * 10 * 1 * 2 * 3 * 4 * 5, z.product(), 0);
-        Assert.assertEquals(Arrays.stream(a).average(), z.average());
+        Assert.assertEquals(Arrays.stream(a).average()getAsDouble(), z.average());
         Assert.assertEquals(Arrays.stream(a).min(), z.min());
         Assert.assertEquals(Arrays.stream(a).max(), z.max());
 
