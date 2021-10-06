@@ -347,4 +347,4 @@ Napisz program umożliwiający wprowadzanie n liczb oraz sortujący te liczby me
 Przez "wyświetlaj wyniki na konsoli" rozumie się wykonanie konkretnych metod w konkretnej kolejności w metodzie `main(String[] args)` w klasie `Main`.
 
 
-###### W oparciu o opracowanie dr inż. Wojciecha Kozła
+###### W oparciu o opracowanie dr inż. Wojciecha Kozioła
