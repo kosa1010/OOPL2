@@ -159,7 +159,7 @@ Przykład:
 public void lowerThan(int num) {
   int x = 0;
 
-while( x < num ) {
+  while( x < num ) {
     System.out.println(x);
     x = x + 1;
   }
