@@ -187,7 +187,7 @@ public class Tests {
         InputStream in = new ByteArrayInputStream(input.getBytes());
         Zad4 z = new Zad4(new Scanner(in));
 
-        int[] a = {6, 7, 8, 9, 10, 1, 2, 3, 4};
+        double[] a = {5, 6, 7, 8, 9, 10, 1, 2, 3, 4};
 
         Assert.assertEquals(Arrays.stream(a).sum(), z.sum(), 0);
         Assert.assertEquals(6 * 7 * 8 * 9 * 10 * 1 * 2 * 3 * 4 * 5, z.product(), 0);
@@ -238,7 +238,7 @@ public class Tests {
                 + "10\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
 
-        int[] a = {5, 6, 27, 18, 14, 10};
+        int[] a = {5, 6, 10, 18, 27, 45};
         Arrays.sort(a);
         Zad7 z = new Zad7();
         Assert.assertArrayEquals(a, z.boubleSort());
