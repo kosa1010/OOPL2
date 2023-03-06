@@ -7,10 +7,7 @@ package pl.edu.ur.oopl2.zad7;
 
 import java.util.Scanner;
 
-/**
- *
- * @author mchyl
- */
+
 public interface Zad7Interface {
     
     public int[] boubleSort();

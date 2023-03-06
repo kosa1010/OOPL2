@@ -7,10 +7,7 @@ package pl.edu.ur.oopl2.zad3;
 
 
 
-/**
- *
- * @author mchyl
- */
+
 public interface Zad3Interface {
     
 

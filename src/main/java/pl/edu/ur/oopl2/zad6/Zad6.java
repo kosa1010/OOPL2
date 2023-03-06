@@ -7,10 +7,7 @@ package pl.edu.ur.oopl2.zad6;
 
 import java.util.Scanner;
 
-/**
- *
- * @author mchyl
- */
+
 public class Zad6 implements Zad6Interface{
 
     @Override

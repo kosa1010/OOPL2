@@ -5,10 +5,7 @@
  */
 package pl.edu.ur.oopl2.zad1;
 
-/**
- *
- * @author mchyl
- */
+
 public class QuadraticEquationImpl implements QuadraticEquationInterface {
 
     @Override

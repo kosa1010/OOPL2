@@ -5,10 +5,7 @@
  */
 package pl.edu.ur.oopl2.zad2;
 
-/**
- *
- * @author mchyl
- */
+
 public interface CalcInterface {
 
     public double add(double a, double b);

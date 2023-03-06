@@ -7,10 +7,7 @@ package pl.edu.ur.oopl2.zad4;
 
 import java.util.Scanner;
 
-/**
- *
- * @author mchyl
- */
+
 public class Zad4 implements Zad4Interface {
 
     //public static Scanner input = new Scanner(System.in);

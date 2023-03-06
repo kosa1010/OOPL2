@@ -5,10 +5,7 @@
  */
 package pl.edu.ur.oopl2.zad4;
 
-/**
- *
- * @author mchyl
- */
+
 public interface Zad4Interface {
     
     public double sum();

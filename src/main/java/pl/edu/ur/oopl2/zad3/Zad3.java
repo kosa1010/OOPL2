@@ -7,10 +7,7 @@ package pl.edu.ur.oopl2.zad3;
 
 import java.util.Scanner;
 
-/**
- *
- * @author mchyl
- */
+
 public class Zad3 implements Zad3Interface {
 
     double[] tabToFill = new double[10];

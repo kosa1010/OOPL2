@@ -5,10 +5,7 @@
  */
 package pl.edu.ur.oopl2.zad5;
 
-/**
- *
- * @author mchyl
- */
+
 public interface Zad5Interface {
     
     public int[] from20To0WithoutSome();

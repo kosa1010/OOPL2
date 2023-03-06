@@ -5,10 +5,7 @@
  */
 package pl.edu.ur.oopl2.zad5;
 
-/**
- *
- * @author mchyl
- */
+
 public class Zad5 implements Zad5Interface{
 
     @Override

@@ -5,10 +5,6 @@
  */
 package pl.edu.ur.oopl2.zad1;
 
-/**
- *
- * @author mchyl
- */
 public interface QuadraticEquationInterface {
     
     public void setA(int a);

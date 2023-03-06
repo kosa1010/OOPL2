@@ -5,10 +5,7 @@
  */
 package pl.edu.ur.oopl2.zad2;
 
-/**
- *
- * @author mchyl
- */
+
 public class Calc implements CalcInterface{
 
     @Override

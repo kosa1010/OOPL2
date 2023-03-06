@@ -7,10 +7,7 @@ package pl.edu.ur.oopl2.zad6;
 
 import java.util.Scanner;
 
-/**
- *
- * @author mchyl
- */
+
 public interface Zad6Interface {
     public void start(Scanner in);
 }
