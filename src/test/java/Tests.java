@@ -159,10 +159,10 @@ public class Tests {
         InputStream in = new ByteArrayInputStream(input.getBytes());
         Zad3 z = new Zad3(new Scanner(in));
 
-        int[] a = {6, 7, 8, 9, 0, 1, 2, 3, 4};
-        int[] b = {4, 3, 2, 1, 0, 9, 8, 7, 6};
-        int[] c = {6, 8, 0, 2, 4};
-        int[] d = {7, 9, 1, 3};
+        double[] a = {6, 7, 8, 9, 0, 1, 2, 3, 4};
+        double[] b = {4, 3, 2, 1, 0, 9, 8, 7, 6};
+        double[] c = {6, 8, 0, 2, 4};
+        double[] d = {7, 9, 1, 3};
 
         Assert.assertEquals(a, z.table());
         Assert.assertEquals(b, z.invertTable());
