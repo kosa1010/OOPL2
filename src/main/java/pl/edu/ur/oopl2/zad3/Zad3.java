@@ -21,22 +21,22 @@ public class Zad3 implements Zad3Interface {
     }
 
     @Override
-    public int[] evenIndexNumbers() {
+    public double[] evenIndexNumbers() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int[] oddIndexNumbers() {
+    public double[] oddIndexNumbers() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int[] table() {
+    public double[] table() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public int[] invertTable() {
+    public double[] invertTable() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

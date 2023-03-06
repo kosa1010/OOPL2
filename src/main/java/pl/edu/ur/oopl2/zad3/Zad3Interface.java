@@ -11,9 +11,9 @@ package pl.edu.ur.oopl2.zad3;
 public interface Zad3Interface {
     
 
-    public int[] evenIndexNumbers();
-    public int[] oddIndexNumbers();
+    public double[] evenIndexNumbers();
+    public double[] oddIndexNumbers();
     
-    public int[] table();
-    public int[] invertTable();
+    public double[] table();
+    public double[] invertTable();
 }
