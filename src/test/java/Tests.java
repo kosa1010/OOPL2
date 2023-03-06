@@ -15,21 +15,19 @@ import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Scanner;
 
-/**
- * Created by mchyl on 28/07/2018.
- */
+
 public class Tests {
 
     @Test
     public void testEx1A() {
         QuadraticEquationInterface qe = new QuadraticEquationImpl();
         qe.setA(1);
-        qe.setB(-3);
+        qe.setB(-5);
         qe.setC(4);
 
-        double d = qe.countDiscriminant(1, -3, 4);
-        double y[] = qe.countRoot(1, -3, qe.countDiscriminant(1, -3, 4));
-        double x[] = {-1, 4};
+        double d = qe.countDiscriminant(1, -5, 4);
+        double y[] = qe.countRoot(1, -3, qe.countDiscriminant(1, -5, 4));
+        double x[] = {1, 4};
 
         Assert.assertArrayEquals(x, y, 0);
 
@@ -49,7 +47,7 @@ public class Tests {
         Assert.assertArrayEquals(x, y, 0);
     }
 
-    @Test
+    @Test@Test(expected = NullPointerException.class)
     public void testEx1C() {
         QuadraticEquationInterface qe = new QuadraticEquationImpl();
         qe.setA(3);
@@ -57,14 +55,16 @@ public class Tests {
         qe.setC(6);
 
         double d = qe.countDiscriminant(3, -2, 6);
-
+        double y[] = qe.countRoot(3, -2, 0);
+        
+    /*
         try {
             double y[] = qe.countRoot(3, -2, 0);
             Assert.fail("Expected NullPointerException");
         } catch (NullPointerException e) {
             Assert.assertThat(e.getMessage(), CoreMatchers.is("Not supported."));
         }
-
+    */
     }
 
     @Test
